@@ -1,0 +1,212 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+.Header{
+    background-color: rgb(189, 102, 189);
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.Top{
+    justify-content: space-evenly;
+    display: flex;
+    /* position: fixed; */
+    width: 100%;
+    background-color: rgb(245, 150, 245);
+   
+}
+.logo{
+    display: flex;
+
+}
+
+.serv{
+    display: none;
+}
+.serv ul{
+    display: block;
+}
+.serv ul li a{
+    color: black;
+    font-size: 25px;
+}
+    
+
+.Icon p{ 
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+   
+}
+.imag img{
+ width: 60px;
+ height: 70px;
+ font-size: 35px;
+ padding-top: -20px;
+ 
+}
+
+.nav ul li{
+    padding-left: 20px;
+    display: inline-block;
+    padding: 25px;
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 15px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Icon{
+    display: flex;
+    margin-left: 300px;
+    padding: 12px;
+
+    
+}
+.buttum button{
+    background-color: rgb(189, 102, 189);
+    margin-left: 20px;
+    font-size: 15px;
+    border: .5px solid white;
+    height: 42px;
+    width: 90px;
+    border-radius: 10px;
+    color: white;
+}
+.bttn button {
+    margin-left: 15px;
+    font-size: 15px;
+    height: 42px;
+    width: 140px;
+    color: rgb(93, 93, 252);
+    font-weight: bolder;
+    border-radius: 10px ; 
+    border: .5px black;
+    
+}
+.showcase{
+text-align: center;
+}
+.showcase h1{
+    color: white;
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.showcase p{
+    padding-top: 20px;
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+.buton button{
+    height: 50px;
+    width: 160px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px ; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    border: .5px black;
+}
+.Pictr{
+    display: flex;
+    margin-top: 80px;
+    padding-bottom: 40px;
+}
+.pic1 img{
+    width: 400px;
+    height: 300px;
+    margin: 15px;
+    border-radius: 20px;
+}
+.Mission{
+    display: flex;
+    height: 400px;
+    /* padding-left: 40px; */
+    /* padding-top: 70px; */
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: aliceblue;
+    text-align: center;
+    
+
+
+}
+.Mission h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: black;
+    /* padding-left: 40px; */
+    padding-top: 70px;
+}
+.Mission p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    padding-top: 20px;
+}
+.Mission{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    gap: 30px;
+    grid-template-rows: 400px 400px 400px;
+    padding-top: 100px;
+    justify-content: center;
+}
+.flash1 img{
+    width: 500px;
+    height: 360px;
+    border-radius: 20px;
+}
+.flash2{
+    padding-left: 90px;
+}
+.flash2 h1{
+    font-size: 50px;
+}
+.muqal1{
+    margin-top: 1000px;
+    text-align: center;
+    background-color: blue;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 500px;
+}
+.muqal1 h1{
+    margin-bottom: 10px;
+    padding-top: 20px;
+    color: white;
+}
+.Near{
+    
+}
+.Toend{
+    background-color:grey;
+    margin:30px 160px;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.Near h1{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 25px;
+    color: blue;
+}
+.work1{
+   
+
+}
